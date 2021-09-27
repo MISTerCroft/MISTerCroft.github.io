@@ -6,3 +6,11 @@ h1 {
   color: white;
   text-align: center;
 }
+
+a:hover {
+  background-color: #0082FC;
+}
+
+a.ex2:hover, a.ex2:active {
+  font-size: 150%;
+}
