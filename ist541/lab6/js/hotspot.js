@@ -2,17 +2,17 @@
 $( function() {
    $("map area").click( function(){
 
-      if ($(this).attr("Name and Gender") == "Name and Gender") {
+      if ($(this).attr("id") == "name") {
          $("#feedback").css("color","red");
          $("#feedback").html("This just says your name");
       }
 
-      if ($(this).attr("This area needs to be accurate") == "This area needs to be accurate") {
+      if ($(this).attr("id") == "school") {
          $("#feedback").css("color","green");
          $("#feedback").html("This tells investigators where to get you from");
       }
 
-      if ($(this).attr("Please make an appointment if you do not have an ID") == "Please make an appointment if you do not have an ID") {
+      if ($(this).attr("id") == "caid") {
          $("#feedback").css("color","red");
          $("#feedback").html("Impotant, but not your pickup location");
       }
