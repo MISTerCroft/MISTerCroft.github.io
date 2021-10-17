@@ -19,6 +19,7 @@ $( function() {
 
   $("#feedback").css("backgroundColor","yellow");
   $('#myModal').modal("show");
+  
 
 
    });
