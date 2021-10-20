@@ -2,6 +2,7 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
+	background-image: url("../img/waterbackground.jpg");
 	background-color:#1A430E;   /* background color */
 	color: #444;          /* text color for the entire page */
 	font-size: 12px;
@@ -10,9 +11,21 @@ body {
 }
 
 h1, h2 { 
-	text-align:left;     /* centers h1 and h2 content */
-	color: #9A7A0D;
+	text-align:center;     /* centers h1 and h2 content */
+	color: #000000;
+	font-size: 40px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	
 }
+
+p {
+	font-size: 20px;
+	
+	
+}
+
+
+
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
@@ -32,7 +45,7 @@ h1, h2 {
 	background-color: #C9C9C9;
 	padding:16px;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 }
 
 .stepDescription {
@@ -52,14 +65,14 @@ a {
     padding: 15px;
 margin: 3px;
     font-size: 125%;
-    background-color: #000000; 
-    color: #EE700A; 
+    background-color: #116E58; 
+    color: #000000; 
 }
 
 a:hover {
     font-size:200%;
-    background-color: #000000; 
-    color: #EE700A; 
+    background-color: #1A7F8B; 
+    color: #000000; 
 }
 
  #koala_image {
