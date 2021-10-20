@@ -39,6 +39,23 @@
 <meta charset="utf-8">
 <title>Follow these steps</title>
 	<link href="css/finalcss.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+$( function(){
+$("#connectorattach").mouseenter( function(){
+$("#adapter").css("display","inline");
+$("#connectorattach").css("display","none");
+$("#answer").html("<p>The pieces should come preassembled.</p>");
+$("#adapter").mouseleave( function(){
+$("#connectorattach").css("display","inline");
+$("#adapter").css("display","none");
+$("#answer").html("");
+});
+
+});
+});
+</script>
+
 </head>
 
 	
@@ -89,8 +106,17 @@
         </div>
 
         <div class="stepImage">
-			<img src="img/connectorattach.jpeg" height="293" alt="it goes here">
-			<img src="img/adapter.jpeg" height="267" alt="assemble in this order"></div>
+			<div id="wrapper2">
+<p>Hover over the adapter!</p> 
+<img id="connectorattach" src="img/connectorattach.jpeg" height="293" alt="it goes here"/>
+ 
+<img id="adapter" src="img/adapter.jpeg" height="267" alt="assemble in this order"/>
+ 
+           <div id="assemble"></div>  <!-- This is a placeholder to display here the answer-->
+ 
+</div>
+
+</div>
 			
         </div><!--stepContent-->
 	</details>
@@ -209,7 +235,7 @@
         </div>
 
         <div class="stepImage">
-			<img src="img/clampedhose.jpeg" alt="clamped"></div>
+			<img src="img/clampedhose.jpeg" alt="clamped" height="255"></div>
 
         </div><!--stepContent-->
 	</details>

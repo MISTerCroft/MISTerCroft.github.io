@@ -29,13 +29,6 @@ ul {
 	
 }
 
-
-/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
-#wrapper {
-	width:900px;
-	margin:0 auto;    /* centers wrapper */
-}
-
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
 	padding:5px;
@@ -88,4 +81,19 @@ a:hover {
 
 .choices {
 cursor: pointer;
+}
+
+#wrapper2 {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #connectorattach {
+border: black 5px solid;
+}
+ 
+ #adapter {
+display: none;
+border: black 5px solid;
 }
