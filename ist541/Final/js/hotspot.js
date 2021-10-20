@@ -5,7 +5,7 @@ $( function() {
     $("map area").click( function(){
 
       if ($(this).attr("id") == "hole") {
-         $("#feedback").css("color","red");
+         $("#feedback").css("color","green");
          $("#feedback").html("Use this to poke a hole with the connector in the main line");
       }
 
@@ -15,7 +15,7 @@ $( function() {
       }
 
       if ($(this).attr("id") == "scissors") {
-         $("#feedback").css("color","red");
+         $("#feedback").css("color","green");
          $("#feedback").html("Use scissors to cut tubing to fit as needed.");
       }
 

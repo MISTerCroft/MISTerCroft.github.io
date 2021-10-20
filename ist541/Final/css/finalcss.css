@@ -21,10 +21,13 @@ h1, h2 {
 p {
 	font-size: 20px;
 	
-	
 }
 
-
+ul {
+	font-size: 20px;
+	text-align: left;
+	
+}
 
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
@@ -75,13 +78,12 @@ a:hover {
     color: #000000; 
 }
 
- #koala_image {
-border: black 5px solid;
-}
- 
- #koala_eating {
-display: none;
-border: black 5px solid;
+.step {
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-decoration: underline;
+	color: #000000;
+	
 }
 
 .choices {
