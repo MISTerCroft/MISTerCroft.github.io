@@ -8,16 +8,26 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
-h1, h2 { 
-	text-align:right;     /* centers h1 and h2 content */
+.header{
+	text-align:center;
+}
+
+.nav {
+	text-align: center;
+}
+
+h1, h2 {
+/*	text-align:right;     /* centers h1 and h2 content */
 	color: #EE700A;
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width:900px;
+	width:1000px;
 	margin:0 auto;    /* centers wrapper */
 }
+
+
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
@@ -27,7 +37,7 @@ h1, h2 {
 	background-color:#EE700A
  }
 
-.stepContent{ 
+.stepContent{
 	background-color: #C9C9C9;
 	padding:16px;
 	display: flex;
@@ -37,31 +47,35 @@ h1, h2 {
 .stepDescription {
 	width:55%;
 	padding:5px;
+	background: black;
 }
 
 .stepImage {border-radius: 20px;
 box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 
-	width:40%;	
+	width:40%;
 	padding:5px;
 	text-align: center;
 }
 
 a {
     padding: 15px;
-margin: 3px;
-    font-size: 125%;
-    background-color: #000000; 
-    color: #EE700A; 
+		margin: 3px;
+    background-color: #000000;
+    color: #EE700A;
+}
+
+.current {
+	text-decoration: none;
 }
 
 a:hover {
-    font-size:200%;
-    background-color: #000000; 
-    color: #EE700A; 
+    background-color: #000000;
+    color: #EE700A;
+		text-decoration: none;
 }
 
 p {
-	font-size: 200%;
-	color: aliceblue;	
+	font-size: 30px;
+	color: aliceblue;
 }
